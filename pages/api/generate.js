@@ -8,7 +8,7 @@ const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix =
 `
-Take the following sentence from a resume and produce 5 options that focus on 1) making it more concise, 2) using more sophisiticated words and 3)highlight the results of the users actions:
+Take the following sentence from a resume and produce 5 options that focus on 1) making it more concise, 2) using more sophisiticated wordsm that are synonyms and 3)highlight the results of the users actions:
 
 sentence:
 `
